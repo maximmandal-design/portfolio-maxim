@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxim Mandal | Contact</title>
+
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">MM</div>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="page-header">
+      <h1 style="letter-spacing: 1px">Get In Touch</h1>
+      <p>Have a project in mind? Let's connect!</p>
+    </header>
+
+    <div class="contact-wrapper">
+      <aside class="contact-info">
+        <h2>Let's Talk</h2>
+
+        <div class="available-badge">
+          <span class="dot-green"></span> Available for freelance
+        </div>
+
+        <p>
+          I'm always open to discussing new projects, creative ideas, or
+          opportunities to collaborate. Drop me a message and I'll get back to
+          you as soon as possible.
+        </p>
+
+        <div class="info-row">
+          <div class="info-icon" style="background: #eeeaff; color: #6c63ff">
+            &#9993;
+          </div>
+          <span>maxim.mandal@email.com</span>
+        </div>
+
+        <div class="info-row">
+          <div class="info-icon" style="background: #ffe9f3; color: #e84393">
+            &#128205;
+          </div>
+          <span>Available Worldwide (Remote)</span>
+        </div>
+
+        <div class="info-row">
+          <div class="info-icon" style="background: #fff7e0; color: #f5a623">
+            &#9200;
+          </div>
+          <span>Response within 24 hours</span>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="#"
+            class="social-link"
+            title="GitHub"
+            style="font-size: 1.2rem"
+            >&#128025;</a
+          >
+          <a
+            href="#"
+            class="social-link"
+            title="LinkedIn"
+            style="font-size: 1rem; font-weight: 800"
+            >in</a
+          >
+          <a
+            href="#"
+            class="social-link"
+            title="Twitter / X"
+            style="font-size: 1.1rem"
+            >&#120143;</a
+          >
+        </div>
+      </aside>
+
+      <div class="contact-form">
+        <form action="#" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name <span class="req">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g. John Smith"
+              required
+              style="letter-spacing: 0.2px"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="What's it about?"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message here..."
+              required
+              style="line-height: 1.65"
+            ></textarea>
+            <p class="hint">Please be as detailed as possible.</p>
+          </div>
+
+          <button
+            type="submit"
+            class="submit-btn"
+            style="margin-top: 6px; letter-spacing: 0.8px"
+          >
+            Send Message &#10148;
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Maxim Mandal</p>
+    </footer>
+  </body>
+</html>
